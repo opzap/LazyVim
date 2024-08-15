@@ -106,7 +106,7 @@ function M.option(option, opts)
   })
 end
 
-local nu = { number = true, relativenumber = true }
+local nu = { number = true, relativenumber = false }
 M.number = M.wrap({
   name = "Line Numbers",
   get = function()
